@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人主页</title>
+    <style type="text/css">
+        body{background-color:#66faff;font-family:"楷体";font-size:20px}
+        .box0{position:absolute;left:100px;right:100px;
+            border:solid;overflow:hidden}
+        .box2{float:left}
+        .box2 img{display:block;}
+        .box3{position: relative;top:10px;left:50px;}
+		.div1{top:150px;height:250px}
+        .div2{top:450px;height:250px}
+        .div3{top:750px;height:250px}
+        .div4{top:1050px;height:10px}
+    </style>
+    <script>
+    function welcome(){
+        alert("Welcome to my Web!");
+    }
+    </script>
+</head>
+<body>
+    <div class="box0 div1">
+        <div class="box2"><img src="psc.jpg" height="250" align="left"></div>
+        <div class="box3">
+            <h2>基本介绍</h2>
+            <p>姓名:卢源斌&nbsp; &nbsp;年龄:20</p>
+            <p>学历:安徽大学（本科）</p>
+
+        </div>
+    </div>
+    <div class="box0 div2">
+        <div class="box3">
+            <h2>能力水平</h2>
+            <p>A.熟悉C/C++编程<br/><br/>B.大学英语四级</br/><br/>C.具有.net开发经验</p>
+        </div>
+        <div align="right">
+            <button type="button" onclick="welcome()">欢迎</button>
+        </div>
+    </div>
+    <div class="box0 div3">
+        <div class="box3">
+            <h2>兴趣爱好</h2>
+            <a href="http://bilibili.com" target="_blank">
+                <img src="bili.png" height="100">
+            </a>
+        </div>
+    </div>
+    <div class="box0 div4">
+
+    </div>
+</body>
+</html>
